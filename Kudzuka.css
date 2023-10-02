@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav img {
+    width: 140px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0 20px;
+    align-items: center;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 18px;
+}
+
+nav .loginbtn {
+    position: relative;
+    right: 50px;
+    /* width: 120px;
+    height: 50px; */
+
+}
+
+nav .loginbtn span {
+    position: absolute;
+    right: 53px;
+    top: 10px;
+    font-size: 18px;
+}
+
+.item:hover {
+    color: rgb(165, 42, 132);
+}
+
+/* End of navbar */
+.sectionsecond {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divtext {
+    padding-top: 180px;
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 120px;
+}
+
+.divtext h3 {
+    font-size: 51px;
+    color: #637279;
+    font-weight: 600;
+}
+
+.divtext h3 span {
+    color: darkmagenta;
+}
+
+.divtext p {
+    font-size: 26px;
+    margin-top: 20px;
+    width: 65%;
+    ;
+}
+
+.divimg {
+    width: 50%;
+    position: relative;
+
+}
+
+.divimg .background {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.divimg .man {
+    position: absolute;
+    left: 25%;
+    top: 0;
+    width: 45%;
+}
+
+.divimg .cloud {
+    position: absolute;
+    width: 60%;
+    top: 120%;
+    left: 20%;
+
+    /* background-color: black; */
+}
+
+.waves {
+    position: absolute;
+    width: 100%;
+    top: 75%;
+    left: -20%;
+}
+
+/* end of second section */
+.third-section{
+    position: relative;
+    text-align: center;
+    padding: 0px 100px;
+     
+}
+.third-section .first-div{
+    width: 400px;
+    display: flex;
+    text-align: center;
+    
+}
+
+.third-section .img-back{
+    position:absolute;
+    width:65%;height:90vh;z-index:-1;
+top: 110%;
+left: 20%;
+}
+.firstimg{
+    position: absolute;
+    top: 870px;
+    left: 140px;
+}
+.secimg{
+    position: absolute;
+    top: 1180px;
+}
+
+
